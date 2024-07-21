@@ -60,7 +60,7 @@ pipeline {
         stage('Docker Build & Push') {
             steps {
                 script {
-                    withDockerRegistry([credentialsId: '6536d9b8-e3f2-4e38-bd5c-7f7603b92fe4']) {
+                    withDockerRegistry([credentialsId: '<our id>']) {
                         sh 'docker build -t demonodejs .'
                         sh 'docker tag demonodejs wicklak/nodejs:latest'
                         sh 'docker push wicklak/nodejs:latest'
