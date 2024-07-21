@@ -55,6 +55,19 @@ permission denied while trying to connect to the Docker daemon socket at unix://
 ```
 run these commands
 
+```
+sudo usermod -aG docker jenkins
+sudo systemctl restart docker
+sudo systemctl restart jenkins
+groups jenkins
+
+```
+Adjust Permissions on Docker Socket (if necessary)
+```
+sudo chmod 666 /var/run/docker.sock
+```
+
+
 ### Pipelline Script
 
 ```
