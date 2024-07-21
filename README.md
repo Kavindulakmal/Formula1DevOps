@@ -40,6 +40,11 @@ sudo systemctl status docker
 sudo systemctl start docker
 ```
 
+You can confirm a successful Docker installation on Ubuntu by running the command
+```
+sudo docker run hello-world
+```
+
 ### Pipelline Script
 
 ```
