@@ -60,7 +60,7 @@ pipeline {
         stage('Docker Build & Push') {
             steps {
                 script {
-                    withDockerRegistry([credentialsId: '<our id>']) {
+                    withDockerRegistry([credentialsId: '<ourid>']) {
                         sh 'docker build -t demonodejs .'
                         sh 'docker tag demonodejs wicklak/nodejs:latest'
                         sh 'docker push wicklak/nodejs:latest'
@@ -72,7 +72,23 @@ pipeline {
                 }
             }
         }
+        
+        stage('Docker Deploy') {
+            steps {
+                script {
+                    withDockerRegistry([credentialsId: '<yourid>']) {
+                        sh 'docker run -d --name demof1 -p 8081:8081 wicklak/nodejs:latest'
+                        
+                     }
+                        
+                        
+
+                    
+                }
+            }
+        }
     }
 }
+
 
 ```
