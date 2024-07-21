@@ -1,4 +1,4 @@
-# Formula1DevOps
+# Formula1 DevOps
 ## Jenkins Practice Project with Docker and Microsoft Azure
 
 ### --- INSTALL JENKINS ---
