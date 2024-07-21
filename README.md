@@ -134,3 +134,13 @@ pipeline {
 
 
 ```
+
+![stages](https://github.com/user-attachments/assets/f59d8053-1c23-46c8-8cfa-c1cc99be7af0)
+
+
+![pipeline status](https://github.com/user-attachments/assets/5905e7ba-042a-4872-9135-fcf1a76c2ea6)
+
+
+![result1](https://github.com/user-attachments/assets/1ebd5d58-4e04-45cb-85a0-e75f04b4b9de)
+
+![Result2](https://github.com/user-attachments/assets/3754adae-de4b-4257-97c6-74215e0176a2)
