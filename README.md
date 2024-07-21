@@ -25,6 +25,20 @@ sudo systemctl enable jenkins
 sudo systemctl start jenkins
 sudo systemctl status jenkins
 ```
+### --- INSTALL DOCKER ---
+
+```
+sudo apt install docker.io
+```
+```
+sudo systemctl enable docker
+```
+```
+sudo systemctl status docker
+```
+```
+sudo systemctl start docker
+```
 
 ### Pipelline Script
 
