@@ -148,3 +148,11 @@ pipeline {
 ![result1](https://github.com/user-attachments/assets/1ebd5d58-4e04-45cb-85a0-e75f04b4b9de)
 
 ![Result2](https://github.com/user-attachments/assets/3754adae-de4b-4257-97c6-74215e0176a2)
+
+# Contributing
+Pull requests are welcomed. For major changes, please open an issue first to discuss what you would like to change. Thanks!
+
+Happy Coding!!!
+
+## Copyright
+© KAVINDU™ | 2024
